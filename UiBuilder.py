@@ -1,7 +1,7 @@
 from Menu import *
 from MidiPlayer import *
 from pathlib import Path
-import time
+from time import sleep
 
 class UiBuilder:
     def __init__(self):
@@ -51,4 +51,4 @@ if __name__ == "__main__":
         ui.menu.update()
         ui.menu.render()
 
-        time.sleep(0.1)
+        sleep(0.1)
